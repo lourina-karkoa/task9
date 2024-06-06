@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.LK-button-one{
+  margin: 250px auto;
+  text-align: center;
+  background-color: orangered;
+  color: white;
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 10px;
+  font-size: 19px;
+  cursor: pointer;
+}
+.Lk-baba{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+  height: 100%;
+}
+.LK-button-tt{
+  margin: 250px auto;
+  text-align: center;
+  background-color: rgb(27, 29, 192);
+  color: white;
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 10px;
+  font-size: 19px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.LK-button-bb{
+  display: none;
+}
+
+.pop-up{
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 50px;
+  left: 40%;
+  transform: (-50%,-50%);
+  background-color: orangered;
+  color: white;
+  font-size: 25px;
+  transition: .5s all ease-in-out;
+  text-align: center;
+  border-radius: 20px;
+}
+.pop-up p{
+  margin-top: 60px;
+}
+
+.pop-up2{
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: -200px;
+  left: 40%;
+  transform: (-50%,-50%);
+  background-color: orangered;
+  color: white;
+  font-size: 25px;
+  transition: 5s;
+  text-align: center;
+  border-radius: 20px;
+  /* display: none; */
+  transition: .2s all ease-in-out;
+}
+.pop-up2 p{
+  margin-top: 60px;
+}
+
+.baba{
+  background-color: rgb(231, 188, 122);
+}
+.baba2{
+  background-color: rgb(84, 84, 124);
+}
+.baba-three{
+  background-color: rgb(178, 202, 134);
+}
